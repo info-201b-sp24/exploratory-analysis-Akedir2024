@@ -5,7 +5,7 @@ output: html_document
 
 ## Title
 
-"Mind Matters: Integrating Mental and Physical Health for Holistic Well-being"
+"Exploring Factors Influencing Student Mental Health: A Data-Driven Approach"
 
 Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.)
 
@@ -23,16 +23,15 @@ Spring 2024
 
 ## Abstract
 
-Mental health is integral to overall well-being, influencing emotions, behavior, and physical health. This project explores mental health's impact on life choices and relationships, examines its interconnection with chronic physical conditions, and develops predictive models using statistical and machine learning techniques.
-
+This project investigates the factors influencing mental health among students using a dataset comprising various demographic and psychological variables. By analyzing the data, the aim is to identify patterns and correlations that could inform better mental health support strategies in educational institutions.
 
 ## Keywords
 
-Mental Health
-Behavioral Analytics
-Predictive Modeling
-Chronic Diseases
-Psychological Well-being
+Student Mental Health
+Data Analysis
+Educational Interventions
+Psychological Factors
+Demographic Influences
 
 
 ## Proposal
@@ -41,59 +40,52 @@ Psychological Well-being
 
 > Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
 
-Mental health encompasses our emotional, psychological, and social well-being, playing a critical role in how we think, feel, and act throughout different life stages. This project will delve into the complex interplay between mental and physical health, particularly how mental health issues like depression can exacerbate physical ailments such as diabetes, heart disease, and stroke, and vice versa. Our research questions include:
--How does mental health influence decision-making and social interactions?
--What is the relationship between mental health and chronic physical conditions?
--Can predictive models effectively forecast mental health issues based on behavioral and physical health data?
-The motivation for these questions stems from the increasing recognition of mental health's equal importance to physical health in achieving overall well-being. Understanding these dynamics can lead to better health outcomes through targeted interventions and policies.
+Mental health is a critical aspect of overall well-being, especially among students who face unique stressors related to academic pressures, social dynamics, and personal development. This project aims to explore the factors that influence mental health in students, addressing the following research questions:
+
+What demographic factors (e.g., age, gender) are most strongly associated with student mental health outcomes?
+How do academic pressures (e.g., workload, performance expectations) impact student mental health?
+What role do social factors (e.g., peer relationships, family support) play in the mental health of students?
+These questions are motivated by the growing concern over rising mental health issues among students
 
 2. Related Work  
 
 > Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
 
-Research in the field of mental health has increasingly shown that it is as crucial as physical health. Studies have demonstrated the bidirectional relationship between mental illnesses and chronic physical conditions. Notable works in this area include:
-
-Smith et al. (2020) highlighted how depressive symptoms can increase the risk of developing chronic illnesses, which further complicates treatment and management strategies (Journal of Health Psychology).
-Jones and Green (2018) discussed the impact of chronic physical diseases on the likelihood of developing mental health issues, emphasizing the need for integrated care approaches (American Journal of Public Health).
-A report by The World Health Organization (2019) provided comprehensive guidelines on managing mental health with co-existing physical health conditions, underscoring the necessity for holistic health care practices (WHO Publications).
-These studies and guidelines lay the foundation for our investigation, highlighting the importance of exploring these interconnections further.
+Research on student mental health has been extensive, highlighting various factors that contribute to psychological well-being. A study by Beiter et al. (2015) found that academic pressures and financial stress are significant predictors of mental health issues among students . Similarly, the work of Eisenberg et al. (2007) emphasizes the role of social support and its positive impact on student mental health . 
+Another relevant study by Stallman (2010) explores the prevalence of mental health problems in the student population, providing a comprehensive overview of the mental health landscape in higher education . These studies collectively underscore the multifaceted nature of student mental health and the necessity for holistic approaches to support.
 
 
 3. The Dataset
 
 > Where did you find the data? Please include a link to the data source
 
-The dataset was obtained from Kaggle, uploaded by a researcher named Mohamadreza Momeni. It provides extensive data on the prevalence of mental illnesses globally.
-https://www.kaggle.com/datasets/imtkaggleteam/mental-health/code
-
+The dataset was obtained from Kaggle
+https://www.kaggle.com/code/shariful07/student-mental-health-data-analysis/input
 > Who collected the data?
 
-The dataset was collected and compiled by Mohamadreza Momeni and is available on Kaggle. 
+The dataset was collected and compiled by MD SHARIFUL ISLAM
 
 > How was the data collected or generated?  
 
-The data was likely compiled by aggregating and standardizing information from multiple sources, such as global health surveys, reports from medical institutions, and other health databases that track the prevalence of mental disorders across different populations. 
-
+The data was collected through surveys conducted in various educational institutions.
 > Why was the data collected?  
 
 The data was collected to monitor and study the prevalence of various mental health disorders globally, helping to identify trends, support public health policies, and prioritize healthcare initiatives.
 
 >How many observations (rows) are in your data?  
 
-There are 6420 rows
+There are 100 rows
 
 > How many features (columns) are in the data?  
 
-There are 8 columns
+There are 10 columns
 
 > What, if any, ethical questions or questions of power do you need to consider when working with this data?  
 
-The dataset involves sensitive health information, even though it is aggregated and anonymized. Ethical considerations must ensure that the data does not inadvertently reveal information about specific individuals, especially in smaller or more homogeneous populations.
-
+Working with mental health data involves significant ethical considerations. Ensuring the anonymity and confidentiality of the participants is paramount to prevent any potential harm.
 > What are possible limitations or problems with this data?   (at least 200 words)
 
-The dataset may not equally represent all demographics or geographical regions. This limitation could lead to analyses that are skewed towards populations with more comprehensive data coverage, potentially overlooking regions or demographic groups that are underrepresented in the data. Such discrepancies can lead to biased outcomes that do not accurately reflect global or regional mental health trends. Data accuracy is crucial for robust analysis. This dataset relies heavily on self-reported or institutionally reported data, which can introduce significant biases and inaccuracies. Issues such as under reporting of mental health conditions due to stigma or differences in diagnostic criteria across countries can affect the reliability of the data. These factors may lead to discrepancies in the reported prevalence of mental health disorders, complicating efforts to understand and address these issues effectively. Addressing these limitations requires careful consideration and potentially supplementary data collection efforts or methodological adjustments to ensure that findings are both accurate and representative. Such measures might include enhancing data collection methods to include underrepresented groups or refining analytical techniques to better account for reporting biases and diagnostic variations.
-
+The dataset may not be representative of all student populations, as it could be skewed towards specific demographics or institutions. 
 4. Implications
 
 > Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
